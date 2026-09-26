@@ -8,10 +8,11 @@ public class Gradecalulator {
 		return calculateTotal(m1,m2,m3)/3.0;
 	}
 	public static boolean isPass(double average) {
-		return average>=40.0;
+		return average>=400.0;
 	}
 	
 	public static void main(String[] args) {
+		
 		int m1=75,m2=68,m3=82;
 		int total=calculateTotal(m1,m2,m3);
 		double average=calculateAvg(m1,m2,m3);
